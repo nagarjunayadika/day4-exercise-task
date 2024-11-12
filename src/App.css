@@ -1,0 +1,15 @@
+#root{width: 100%;}
+body{margin: 0;padding: 0; font-size: 16px;}
+.todo-list-container{background: #fff;border-radius: 10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);max-width:650px;margin: 0 auto;padding:10px;}
+.todo-list-container h1{text-align:center;margin: 0 0 10px;color:#000;padding:0 0 10px;border-bottom: 1px solid #ccc;}
+.todo-list-container ul{list-style:none;padding:0;}
+.todo-list-container li{display: flex;align-items: center;justify-content: space-between;color: #000;background:#eee;padding:8px;margin-bottom:8px;}
+.todo-list-container p{margin:0;}
+.todo-list-container li button{margin:0 0 0 8px;background:#fff;color:#000;border-radius:6px;}
+.form-check{display:flex; align-items:center;}
+.form-check p{display:block;}
+.form-check p span{margin:0 4px 0 0;}
+.form-check input{margin:0 8px 0 0 ;height:24px;width:24px;background:#eee;cursor: pointer;}
+.todo-actions{display:flex; align-items:center;justify-content: space-between;}
+.todo-actions button{background:blue;border:none;}
+.todo-actions select{background:#ccc;border-radius:4px;padding:12px 16px 12px 8px;color:#000;border:none;min-width:100px;}
